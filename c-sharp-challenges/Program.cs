@@ -1,6 +1,6 @@
-﻿using c_sharp_challenges;
+﻿// using c_sharp_challenges;
 
-ShoppingCart cart = new ShoppingCart();
+/*ShoppingCart cart = new ShoppingCart();
 Console.WriteLine(cart.GetItemCount());
 Console.WriteLine(cart.GetTotal());
 
@@ -14,4 +14,4 @@ cart.AddItem(300m);
 cart.AddItem(234m);
 
 Console.WriteLine(cart.GetItemCount());
-Console.WriteLine(cart.GetTotal());
+Console.WriteLine(cart.GetTotal());*/
