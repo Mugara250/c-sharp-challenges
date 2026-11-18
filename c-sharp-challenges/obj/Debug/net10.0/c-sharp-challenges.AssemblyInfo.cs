@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("c-sharp-challenges")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c7b20d9949cf5f300b40aeed4d86ad4be1ea84a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4f9ed40bb52c3e2e10319a0edd762c56cfa368b8")]
 [assembly: System.Reflection.AssemblyProductAttribute("c-sharp-challenges")]
 [assembly: System.Reflection.AssemblyTitleAttribute("c-sharp-challenges")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
