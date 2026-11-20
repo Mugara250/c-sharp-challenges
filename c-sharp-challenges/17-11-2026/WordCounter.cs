@@ -10,11 +10,11 @@ public class WordCounter
 
         var words = text.Split(" ");
 
-        // var punctuation = ['.', ','];
+        var punctuation = new char[] {'.', ',', '!', '?', ';', ':', '(', ')', '[', ']'};
         
         foreach (var word in words)
         {
-            if (string.Equals(word, targetWord, StringComparison.OrdinalIgnoreCase))
+            if (string.Equals(word.Trim(punctuation), targetWord.Trim(punctuation), StringComparison.OrdinalIgnoreCase))
             {
                 count++;
             }    
