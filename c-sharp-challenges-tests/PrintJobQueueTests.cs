@@ -23,11 +23,14 @@ public class PrintJobQueueTests
         Assert.True(result is null);
     }
 
-    [Fact]
-    public void Rejecting_An_Invalid_Job_Name()
+    [Theory]
+    [InlineData("")]
+    [InlineData(null)]
+    [InlineData(" ")]
+    public void Rejecting_An_Invalid_Job_Name(string? jobName)
     {
         var printer = new PrintJobQueue();
-        Assert.Throws<ArgumentException>(() => printer.AddJob(" "));
+        Assert.Throws<ArgumentException>(() => printer.AddJob(jobName));
     }
 }
 
