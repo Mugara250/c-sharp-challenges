@@ -1,4 +1,4 @@
-namespace c_sharp_challenges;
+namespace c_sharp_challenges._13_11_2026;
 
 public class ShoppingCart
 {
@@ -18,7 +18,6 @@ public class ShoppingCart
 
     public int GetItemCount()
     {
-        if (_prices.Count == 0) return 0;
         return _prices.Count;
     }
 }
